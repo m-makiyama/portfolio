@@ -1,3 +1,10 @@
 @import "common";
 @import "header";
 @import "footer";
+
+@media (max-width: 767.98px) {
+	@import "sp/common";
+}
+@media (min-width: 767.99px) {
+	@import "pc/common";
+}
