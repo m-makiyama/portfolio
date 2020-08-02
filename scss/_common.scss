@@ -1,0 +1,93 @@
+.h1 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+}
+.h2 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 0.1em;
+    margin-bottom: 2rem;
+    > span {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 1rem;
+        display: block;
+    }
+}
+
+.h3 {
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 0.1em;
+    padding-bottom: 10px;
+    &:after {
+        content: "";
+        display: block;
+        margin-top: 10px;
+        width: 40px;
+        height: 4px;
+        border-radius: 2px;
+        background: #00afd9;
+    }
+}
+
+#main {
+    position: relative;
+    max-height: 60vh;
+    overflow: hidden;
+    p {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        line-height: 2;
+        letter-spacing: 0.1em;
+        color: #ffffff;
+        text-shadow: 0 1px 8px rgba(0,0,0,0.4);
+    }
+}
+
+#about {
+    background: #e0f9ff;
+    .skill {
+            padding-left: 60px;
+            min-height: 60px;
+            display: flex;
+            background-size: 50px;
+            background-repeat: no-repeat;
+            background-position: left center;
+            flex-flow: column;
+            justify-content: center;
+        > strong {
+            font-family: 'Nunito', sans-serif;
+            font-size: 1.1em;
+        }
+        > span {
+            color: #666666;
+            font-size: 0.9em;
+        }
+        &.ps {
+            background-image: url("../assets/skill-ps.png");
+        }
+        &.ai {
+            background-image: url("../assets/skill-ai.png");
+        }
+        &.xd {
+            background-image: url("../assets/skill-xd.png");
+        }
+        &.code {
+            background-image: url("../assets/skill-code.png");
+        }
+        &.git {
+            background-image: url("../assets/skill-git.png");
+        }
+    }
+    @include media-breakpoint-up(md) {
+    }
+}
