@@ -83,6 +83,7 @@ p {
     max-height: 60vh;
     overflow: hidden;
     p {
+        z-index: 1;
         position: absolute;
         top: 50%;
         left: 0;

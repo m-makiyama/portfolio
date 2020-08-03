@@ -74,6 +74,7 @@ p {
   max-height: 60vh;
   overflow: hidden; }
   #main p {
+    z-index: 1;
     position: absolute;
     top: 50%;
     left: 0;
@@ -123,7 +124,7 @@ p {
 header {
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 3;
   background: #ffffff;
   transition: all .2s;
   padding: 20px 0; }
