@@ -1,9 +1,17 @@
 .h2 {
     font-size: 2rem;
 }
-
+.navbar-brand {
+    width: calc(100% - 72px);
+}
 #main {
     p {
         font-size: 1.5rem;
     }
+}
+
+#works,
+#about,
+#contact {
+    padding: 50px 0;
 }

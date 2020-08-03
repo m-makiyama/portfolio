@@ -1,20 +1,30 @@
+html {
+  scroll-behavior: smooth; }
+
+body {
+  position: relative; }
+
+p {
+  letter-spacing: 0.06em;
+  line-height: 1.6; }
+
 .h1 {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-weight: 700; }
 
 .h2 {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 800;
   text-align: center;
   letter-spacing: 0.1em;
   margin-bottom: 2rem; }
   .h2 > span {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
     font-size: 1rem;
     display: block; }
 
 .h3 {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   letter-spacing: 0.1em;
   padding-bottom: 10px; }
   .h3:after {
@@ -27,15 +37,37 @@
     background: #00afd9; }
 
 .btn {
-  font-family: 'Noto Sans JP', sans-serif; }
+  font-family: "Noto Sans JP", sans-serif; }
 
 .btn-lg {
   padding: 18px 36px; }
 
+.btn-pink {
+  background-color: #ffffff;
+  color: #fc6ea0;
+  border: 2px solid #fc6ea0;
+  background-size: 200% 100%;
+  background-image: -webkit-linear-gradient(left, transparent 50%, #fb3c7f 50%);
+  background-image: linear-gradient(to right, transparent 50%, #fb3c7f 50%);
+  -webkit-transition: background-position 0.3s cubic-bezier(0.19, 1, 0.22, 1) 0.1s, color 0.5s ease 0s, background-color 0.5s ease;
+  transition: background-position 0.3s cubic-bezier(0.19, 1, 0.22, 1) 0.1s, color 0.5s ease 0s, background-color 0.5s ease; }
+  .btn-pink:hover {
+    background-color: #fb3c7f;
+    background-position: -100% 100%;
+    color: #fff;
+    border: 2px solid #fb3c7f; }
+
 .navbar-nav .nav-link {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   letter-spacing: 0.1em;
   color: inherit; }
+
+.card {
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 52, 64, 0.1);
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.7);
+  border: 2px solid #ffffff; }
 
 #main {
   position: relative;
@@ -59,7 +91,7 @@
 
 #about {
   background: #e0f9ff; }
-  #about .skill {
+  #about .skill:not(.card) {
     padding-left: 60px;
     min-height: 60px;
     display: flex;
@@ -68,22 +100,42 @@
     background-position: left center;
     flex-flow: column;
     justify-content: center; }
-    #about .skill > strong {
-      font-family: 'Nunito', sans-serif;
+    #about .skill:not(.card) > strong {
+      font-family: "Nunito", sans-serif;
       font-size: 1.1em; }
-    #about .skill > span {
+    #about .skill:not(.card) > span {
       color: #666666;
       font-size: 0.9em; }
-    #about .skill.ps {
+    #about .skill:not(.card).ps {
       background-image: url("../assets/skill-ps.png"); }
-    #about .skill.ai {
+    #about .skill:not(.card).ai {
       background-image: url("../assets/skill-ai.png"); }
-    #about .skill.xd {
+    #about .skill:not(.card).xd {
       background-image: url("../assets/skill-xd.png"); }
-    #about .skill.code {
+    #about .skill:not(.card).code {
       background-image: url("../assets/skill-code.png"); }
-    #about .skill.git {
+    #about .skill:not(.card).git {
       background-image: url("../assets/skill-git.png"); }
+  #about .skill.card .left {
+    background-position: center;
+    background-size: cover; }
+  #about .skill.card.web .left {
+    background-image: url("../assets/skill-img01.jpg"); }
+  #about .skill.card.coding .left {
+    background-image: url("../assets/skill-img02.jpg"); }
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #ffffff;
+  transition: all .2s;
+  padding: 20px 0; }
+  header.smaller {
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); }
+    header.smaller .navbar-brand {
+      width: 200px; }
 
 footer {
   background: #e8f1f3; }
@@ -96,11 +148,22 @@ footer {
   .h2 {
     font-size: 2rem; }
 
+  .navbar-brand {
+    width: calc(100% - 72px); }
+
   #main p {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem; }
+
+  #works,
+  #about,
+  #contact {
+    padding: 50px 0; } }
 @media (min-width: 767.99px) {
-  .h2 {
+  .h1, .h2 {
     font-size: 3rem; }
+
+  .h2 {
+    margin-bottom: 3rem; }
 
   #works,
   #about,

@@ -1,13 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="348" height="31" viewBox="0 0 348 31">
+<svg id="logo.svg" xmlns="http://www.w3.org/2000/svg" width="300" height="53" viewBox="0 0 300 53">
   <defs>
     <style>
       .cls-1 {
-        font-size: 45px;
+        font-size: 21px;
+      }
+
+      .cls-1, .cls-2 {
         fill: #526064;
         font-family: "Domus Titling";
         font-weight: 500;
       }
+
+      .cls-2 {
+        font-size: 31px;
+      }
     </style>
   </defs>
-  <text id="logo.svg" class="cls-1" x="-2.59" y="30.183">Mizuki design</text>
+  <text id="webdesign" class="cls-1" x="0.41" y="14.183">WEB DESIGN</text>
+  <text id="mizuki" class="cls-2" x="-1.589" y="52.183">MIZUKI MAKIYAMA</text>
 </svg>

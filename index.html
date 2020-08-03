@@ -13,30 +13,30 @@
 
     <title>MIZUKIDESIGN-ポートフォリオサイト-</title>
   </head>
-  <body>
+  <body  data-spy="scroll" data-target="#navbar">
     <header>
-      <div class="container d-block py-4">
-        <div class="d-md-flex align-items-center">       
-          <h1 class="logo">
-            <a href="#">
-              <span class="logo-icon-wrapper"><img class="logo-icon" src="assets/logo.svg" alt="mizukidesing"></span>
-          </h1><!--//logo-->
-          <nav class="main-nav navbar-expand-md navbar-inverse ml-md-auto" role="navigation">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-            </button><!--//nav-toggle-->
-            <div id="navbar-collapse" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li class="nav-item"><a class="nav-link scrollto" href="#works">WORKS</a></li>
-                    <li class="nav-item"><a class="nav-link scrollto" href="#about">ABOUT</a></li>
-                    <li class="nav-item"><a class="nav-link scrollto" href="#contact">CONTACT</a></li>
-                </ul><!--//nav-->
-            </div><!--//navabr-collapse-->
-          </nav><!--//main-nav-->                     
-        </div>
+      <div class="container d-block">
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light p-0">
+          <a class="navbar-brand" href="#">
+            <img class="logo-icon img-fluid" src="assets/logo.svg" alt="mizukidesing" />
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-md-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#works">WORKS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
     </header>
     <div id="main">
@@ -48,7 +48,7 @@
     <div id="works">
       <div class="container">
         <p class="h2">WORKS<span>制作実績</span></p>
-        <div id="carouselExampleIndicators" class="carousel slide mb-5" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide mb-3 mb-md-5" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -66,7 +66,7 @@
             </div>
           </div>
         </div>
-        <p class="text-center">制作実績は外部サービスの VIVIVIT にてまとめております。<br/>
+        <p class="text-md-center">制作実績は外部サービスの VIVIVIT にてまとめております。<br/>
         お手数おかけいたしますが、以下リンクよりご確認のほうよろしくお願いいたします。</p>
         <div class="text-center">
           <a href="https://www.vivivit.com/profile/public/vxTBftGUhQ" target="_blank" class="btn btn-lg btn-pink">制作事例はこちら<i class="fas fa-external-link-alt fa-sm ml-2"></i></a>
@@ -76,13 +76,45 @@
     <div id="about">
       <div class="container">
         <div class="row">
+          <div class="col-12">
+            <p class="h2">ABOUT<span>私について</span></p>
+          </div>
           <div class="col-12 col-md-4 text-center">
             <img src="assets/img.png" class="img-fluid mb-3" />
           </div>
-          <div class="col-12 col-md-8 mb-md-5">
-            <p class="h3">ABOUT</p>
+          <div class="col-12 col-md-8">
+            <p class="h3">PROFILE</p>
             <p>高校卒業後、専門学校で2年間WEB制作の基礎知識を学び、2016年に不動産向けソフトウェアを提供するIT企業に入社しWebデザイナーとして4年の経験を積んできました。<br />
             自社のパッケージソフトを使用したWEBデザインの作成、広告バナー作成、ソフトウェアの管理画面のデザイン/コーディングを行いました。</p>
+          </div>
+          <div class="col-12 my-3 my-md-4">
+            <p class="h3">SKILL</p>
+            <div class="card-deck">
+              <div class="card skill web">
+                <div class="row no-gutters h-100">
+                  <div class="col-4 col-sm-12 col-md-4 left">
+                  </div>
+                  <div class="col-8 col-sm-12 col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Web Design</h5>
+                      <p class="card-text">求めるデザインと成果を考えながら、ユーザー目線を忘れず使いやすいWebデザインをご提案します。</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card skill coding">
+                <div class="row no-gutters h-100">
+                  <div class="col-4 col-sm-12 col-md-4 left">
+                  </div>
+                  <div class="col-8 col-sm-12 col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Coading</h5>
+                      <p class="card-text">HTML、CSS、jQueryなどを使用し、管理のしやすいコードを意識しながら構築しています。</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-12 col-md-6">
             <p class="skill ps">
@@ -112,12 +144,18 @@
               <span>SourceTreeを使ったpushやpullといった基本的なソース管理</span>
             </p>
           </div>
+          <div class="col-12">
+        </div>
         </div>
       </div>
     </div>
     <div id="contact">
       <div class="container">
         <p class="h2">CONTACT<span>お問い合わせ</span></p>
+        <p class="text-md-center">ポートフォリオをご覧いただきありがとうございます。<br>ご不明な点等ございましたら下記リンクからお気軽にご連絡ください。</p>
+        <div class="text-center">
+          <a href="https://forms.gle/AkqM4uoy4F48Ar4o6" target="_blank" class="btn btn-lg btn-pink">お問い合わせフォームへ<i class="fas fa-external-link-alt fa-sm ml-2"></i></a>
+        </div>
       </div>
     </div>
     <footer class="py-3">
@@ -128,5 +166,30 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+    function init() {
+        // スクロールして何ピクセルでアニメーションさせるか
+        var px_change   = 300;
+     
+        // スクロールのイベントハンドラを登録
+        window.addEventListener('scroll', function(e){
+            // 変化するポイントまでスクロールしたらクラスを追加
+            if ( $(window).scrollTop() > px_change ) {
+                $("header").addClass("smaller");
+     
+            // 変化するポイント以前であればクラスを削除
+            } else if ( $("header").hasClass("smaller") ) {
+                $("header").removeClass("smaller");
+            }
+        });
+    }
+    window.onload = init();
+    </script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 50
+      });
+    </script>
   </body>
 </html>
