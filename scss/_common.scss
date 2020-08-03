@@ -84,19 +84,15 @@ p {
     overflow: hidden;
     p {
         position: absolute;
+        top: 50%;
         left: 0;
         right: 0;
-        top: 0;
-        bottom: 0;
-        margin: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        transform: translateY(-50%);
         text-align: center;
         line-height: 2;
         letter-spacing: 0.1em;
         color: #ffffff;
-        text-shadow: 0 1px 8px rgba(0,0,0,0.4);
+        text-shadow: 0 1px 8px rgba(0, 0, 0, 0.4);
     }
 }
 
