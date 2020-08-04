@@ -2,6 +2,9 @@ $main-color: #00afd9;
 $pink-color: #fc6ea0;
 $g-ja-font: 'Noto Sans JP', sans-serif;
 $g-en-font: 'Nunito', sans-serif;
+html,body {
+    height: 100%;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -156,16 +159,16 @@ p {
         }
     }
 }
-.para {
-    &-base{
-        background-position: center center;
-        background-size: cover;
+.parallax {
+    min-height: 600px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &.bg-01 {
+        background-image: url('../assets/para01.jpg');
     }
-    &01 {
-        background: url('../assets/para01.jpg') no-repeat fixed ;
-    }
-    &02 {
-        background: url('../assets/para02.jpg') no-repeat fixed ;
+    &.bg-02 {
+        background-image: url('../assets/para02.jpg');
     }
 }
 .fadeInDown {

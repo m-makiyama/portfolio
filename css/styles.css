@@ -1,3 +1,6 @@
+html, body {
+  height: 100%; }
+
 html {
   scroll-behavior: smooth; }
 
@@ -126,13 +129,15 @@ p {
   #about .skill.card.coding .left {
     background-image: url("../assets/skill-img02.jpg"); }
 
-.para-base {
-  background-position: center center;
+.parallax {
+  min-height: 600px;
+  background-position: center top;
+  background-repeat: no-repeat;
   background-size: cover; }
-.para01 {
-  background: url("../assets/para01.jpg") no-repeat fixed; }
-.para02 {
-  background: url("../assets/para02.jpg") no-repeat fixed; }
+  .parallax.bg-01 {
+    background-image: url("../assets/para01.jpg"); }
+  .parallax.bg-02 {
+    background-image: url("../assets/para02.jpg"); }
 
 .fadeInDown {
   -webkit-animation-fill-mode: both;
@@ -202,10 +207,7 @@ footer {
 
   #main {
     height: 40vh;
-    margin-top: 97px; }
-
-  .para-base {
-    min-height: 200px; } }
+    margin-top: 97px; } }
 @media (min-width: 767.99px) {
   .h1, .h2 {
     font-size: 3rem; }
@@ -219,9 +221,6 @@ footer {
     padding: 100px 0; }
 
   #main {
-    height: 100vh; }
-
-  .para-base {
-    min-height: 400px; } }
+    height: 100vh; } }
 
 /*# sourceMappingURL=styles.css.map */
