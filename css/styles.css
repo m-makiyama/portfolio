@@ -43,19 +43,22 @@ p {
   padding: 18px 36px; }
 
 .btn-pink {
-  background-color: #ffffff;
-  color: #fc6ea0;
+  min-width: 50%;
+  background-color: #fc6ea0;
+  color: #ffffff;
   border: 2px solid #fc6ea0;
   background-size: 200% 100%;
-  background-image: -webkit-linear-gradient(left, transparent 50%, #fb3c7f 50%);
-  background-image: linear-gradient(to right, transparent 50%, #fb3c7f 50%);
-  -webkit-transition: background-position 0.3s cubic-bezier(0.19, 1, 0.22, 1) 0.1s, color 0.5s ease 0s, background-color 0.5s ease;
-  transition: background-position 0.3s cubic-bezier(0.19, 1, 0.22, 1) 0.1s, color 0.5s ease 0s, background-color 0.5s ease; }
+  background-image: -webkit-linear-gradient(left, transparent 50%, white 50%);
+  background-image: linear-gradient(to right, transparent 50%, white 50%);
+  -webkit-transition: background-position 0.3s cubic-bezier(0.19, 1, 0.22, 1) 0.1s, color 0.5s ease 0s, background-color 0.5s ease, box-shadow 0.5s ease;
+  transition: background-position 0.3s cubic-bezier(0.19, 1, 0.22, 1) 0.1s, color 0.5s ease 0s, background-color 0.5s ease, box-shadow 0.5s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); }
   .btn-pink:hover {
-    background-color: #fb3c7f;
+    background-color: white;
     background-position: -100% 100%;
-    color: #fff;
-    border: 2px solid #fb3c7f; }
+    color: #fc6ea0;
+    border: 2px solid #fc6ea0;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); }
 
 .navbar-nav .nav-link {
   font-family: "Noto Sans JP", sans-serif;
@@ -71,8 +74,10 @@ p {
 
 #main {
   position: relative;
-  max-height: 60vh;
-  overflow: hidden; }
+  overflow: hidden;
+  background-image: url("../assets/main.jpg");
+  background-size: cover;
+  background-position: center; }
   #main p {
     z-index: 1;
     position: absolute;
@@ -121,15 +126,54 @@ p {
   #about .skill.card.coding .left {
     background-image: url("../assets/skill-img02.jpg"); }
 
+.para-base {
+  background-position: center center;
+  background-size: cover; }
+.para01 {
+  background: url("../assets/para01.jpg") no-repeat fixed; }
+.para02 {
+  background: url("../assets/para02.jpg") no-repeat fixed; }
+
+.fadeInDown {
+  -webkit-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  visibility: visible !important; }
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0); } }
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0); } }
 header {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 3;
-  background: #ffffff;
-  transition: all .2s;
+  transition: all .5s;
   padding: 20px 0; }
   header.smaller {
     padding: 10px 0;
+    background: #ffffff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); }
     header.smaller .navbar-brand {
       width: 200px; }
@@ -154,7 +198,14 @@ footer {
   #works,
   #about,
   #contact {
-    padding: 50px 0; } }
+    padding: 50px 0; }
+
+  #main {
+    height: 40vh;
+    margin-top: 97px; }
+
+  .para-base {
+    min-height: 200px; } }
 @media (min-width: 767.99px) {
   .h1, .h2 {
     font-size: 3rem; }
@@ -165,6 +216,12 @@ footer {
   #works,
   #about,
   #contact {
-    padding: 100px 0; } }
+    padding: 100px 0; }
+
+  #main {
+    height: 100vh; }
+
+  .para-base {
+    min-height: 400px; } }
 
 /*# sourceMappingURL=styles.css.map */

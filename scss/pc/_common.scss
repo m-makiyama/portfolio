@@ -9,3 +9,11 @@
 #contact {
     padding: 100px 0;
 }
+#main {
+    height: 100vh;
+}
+.para {
+    &-base{
+      min-height: 400px;
+    }
+}

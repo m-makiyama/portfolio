@@ -15,3 +15,12 @@
 #contact {
     padding: 50px 0;
 }
+#main {
+    height: 40vh;
+    margin-top: 97px;
+}
+.para {
+    &-base{
+      min-height: 200px;
+    }
+}
