@@ -129,14 +129,13 @@ p {
   #about .skill.card.coding .left {
     background-image: url("../assets/skill-img02.jpg"); }
 
-.parallax {
-  min-height: 600px;
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: cover; }
-  .parallax.bg-01 {
+.bg_scroll {
+  background: no-repeat;
+  background-size: cover;
+  min-height: 400px; }
+  .bg_scroll.bg-01 {
     background-image: url("../assets/para01.jpg"); }
-  .parallax.bg-02 {
+  .bg_scroll.bg-02 {
     background-image: url("../assets/para02.jpg"); }
 
 .fadeInDown {

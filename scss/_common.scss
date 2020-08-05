@@ -159,11 +159,10 @@ p {
         }
     }
 }
-.parallax {
-    min-height: 600px;
-    background-position: center top;
-    background-repeat: no-repeat;
+.bg_scroll {
+    background: no-repeat;
     background-size: cover;
+    min-height: 400px;
     &.bg-01 {
         background-image: url('../assets/para01.jpg');
     }

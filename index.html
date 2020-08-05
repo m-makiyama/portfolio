@@ -74,7 +74,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax bg-01" id="parallax-01"></div>
+    <div class="bg_scroll bg-01" id="bg_scroll-01"></div>
     <div id="about" class="animation">
       <div class="container">
         <div class="row">
@@ -89,7 +89,7 @@
             <p>高校卒業後、専門学校で2年間WEB制作の基礎知識を学び、2016年に不動産向けソフトウェアを提供するIT企業に入社しWebデザイナーとして4年の経験を積んできました。<br />
             自社のパッケージソフトを使用したWEBデザインの作成、広告バナー作成、ソフトウェアの管理画面のデザイン/コーディングを行いました。</p>
           </div>
-          <div class="col-12 my-3 my-md-4 animation">
+          <div class="col-12 my-3 my-md-5 animation">
             <p class="h3">SKILL</p>
             <div class="card-deck">
               <div class="card skill web">
@@ -151,7 +151,7 @@
         </div>
       </div>
     </div>
-    <div class="parallax bg-02" id="parallax-02"></div>
+    <div class="bg_scroll bg-02" id="bg_scroll-02"></div>
     <div id="contact" class="animation">
       <div class="container">
         <p class="h2">CONTACT<span>お問い合わせ</span></p>
@@ -211,26 +211,21 @@
     </script>
     <script>
       $(function(){
-        var target1 = $("#parallax-01");
-        var targetPosOT1 = target1.offset().top;
-        var target2 = $("#parallax-02");
-        var targetPosOT2 = target2.offset().top;
-        var targetFactor = 0.5;
-        var windowH = $(window).height();
-        var scrollYStart1 = targetPosOT1 - windowH;
-        var scrollYStart2 = targetPosOT2 - windowH;
-        $(window).on('scroll',function(){
-          var scrollY = $(this).scrollTop();
-          if(scrollY > scrollYStart1){
-            target1.css('background-position-y', (scrollY - targetPosOT1) * targetFactor + 'px');
-          }else{
-            target1.css('background-position','center top');
-          }
-          if(scrollY > scrollYStart2){
-            target2.css('background-position-y', (scrollY - targetPosOT2) * targetFactor + 'px');
-          }else{
-            target2.css('background-position','center top');
-          }
+        var $window = $(window);
+       
+        $('.bg_scroll').each(function(index) {
+          var $self = $(this);
+          var offsetPositions = $self.offset();
+       
+          $(window).scroll(function() {
+            //この領域がブラウザに表示されている場合
+            if (($window.scrollTop() + $window.height()) > offsetPositions.top && ((offsetPositions.top + $self.height()) > $window.scrollTop())) {
+              var offsetY = $window.scrollTop() - offsetPositions.top ;
+              var positions = '50%' + offsetY + 'px';
+              $self.css('backgroundPosition', positions);
+              //console.log(index + ' offsetY : ' + offsetY + '    $window.scrollTop: ' + $window.scrollTop());
+            }
+          });
         });
       });
     </script>
