@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html, body {
   height: 100%; }
 
@@ -95,7 +96,8 @@ p {
     margin-top: -50px;
     max-height: 100%; }
   #main .main-text {
-    position: absolute; }
+    position: absolute;
+    animation: SlideIn 1s; }
     #main .main-text .h1 {
       color: #00afd9;
       text-shadow: 2px 2px 10px white; }
@@ -103,6 +105,96 @@ p {
       font-family: "Noto Sans JP", sans-serif;
       font-weight: 700;
       line-height: 2; }
+
+@keyframes SlideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+/* animation */
+@-webkit-keyframes passing-bar {
+  0% {
+    left: 0;
+    right: auto;
+    width: 0; }
+  50% {
+    left: 0;
+    right: auto;
+    width: 100%; }
+  51% {
+    left: auto;
+    right: 0;
+    width: 100%; }
+  100% {
+    left: auto;
+    right: 0;
+    width: 0; } }
+@keyframes passing-bar {
+  0% {
+    left: 0;
+    width: 0; }
+  50% {
+    left: 0;
+    width: 100%; }
+  51% {
+    left: 0;
+    width: 100%; }
+  100% {
+    left: 100%;
+    width: 0; } }
+@-webkit-keyframes passing-txt {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes passing-txt {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+/* css */
+.passing .passing-box {
+  display: block; }
+
+.passing .passing-bar {
+  position: relative;
+  display: inline-block;
+  /*　後ほど解説　*/
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.passing .passing-bar:before {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  /* 任意の値 */
+  background: #00afd9; }
+
+.passing .passing-txt {
+  opacity: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.passing.move .passing-bar:before {
+  -webkit-animation: passing-bar 1s ease 0s 1 normal forwards;
+  animation: passing-bar 1s ease 0s 1 normal forwards; }
+
+.passing.move .passing-txt {
+  -webkit-animation: passing-txt 0s ease .5s 1 normal forwards;
+  animation: passing-txt 0s ease .5s 1 normal forwards; }
 
 #about .skill-bg {
   background: linear-gradient(-180deg, white 150px, rgba(0, 175, 217, 0.1) 150px); }
