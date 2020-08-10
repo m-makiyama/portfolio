@@ -86,6 +86,38 @@ p {
     border: none;
     box-shadow: 0 0 10px rgba(darken($main-color,30), 0.1);
 }
+#load {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: $main-color;
+    color: white;
+    z-index: 1;
+    transition: all 1s;
+    display: flex;
+    p {
+        color: white;
+        font-family: $g-en-font;
+        font-size: 2em;
+        animation: scaleout 2.0s infinite ease-in-out;
+        margin: auto;
+    }
+    &.loaded {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+@keyframes scaleout {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
 #main,
 #works,
 #about,
