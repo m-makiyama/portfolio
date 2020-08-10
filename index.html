@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&family=Nunito:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&family=Nunito:wght@800&&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
 
     <title>MIZUKIDESIGN-ポートフォリオサイト-</title>
   </head>
@@ -39,14 +39,20 @@
         </nav>
       </div>
     </header>
-    <div id="main"> 
-      <p class="h1">
-        課題解決のために
-        <br/>
-        デザインで人の役に立ちたい
-      </p>
-    </div>
-    <div id="works" class="animation">
+    <section id="main">
+      <div class="container position-relative">
+        <img src="assets/mask-clip.png" />
+        <div class="main-text">
+          <p class="h1 mb-4">I am Mizuki</p>
+          <p>
+            課題解決のために
+            <br/>
+            デザインで人の役に立ちたい
+          </p>
+      </div>
+      </div>
+    </section>
+    <section id="works" class="animation">
       <div class="container">
         <p class="h2">WORKS<span>制作実績</span></p>
         <div id="carouselExampleIndicators" class="carousel slide mb-3 mb-md-5" data-ride="carousel">
@@ -73,9 +79,9 @@
           <a href="https://www.vivivit.com/profile/public/vxTBftGUhQ" target="_blank" class="btn btn-lg btn-pink">制作事例はこちら<i class="fas fa-external-link-alt fa-sm ml-2"></i></a>
         </div>
       </div>
-    </div>
-    <div class="bg_scroll bg-01" id="bg_scroll-01"></div>
-    <div id="about" class="animation">
+    </section>
+    <section class="bg_scroll"></section>
+    <section id="about" class="animation">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -89,70 +95,86 @@
             <p>高校卒業後、専門学校で2年間WEB制作の基礎知識を学び、2016年に不動産向けソフトウェアを提供するIT企業に入社しWebデザイナーとして4年の経験を積んできました。<br />
             自社のパッケージソフトを使用したWEBデザインの作成、広告バナー作成、ソフトウェアの管理画面のデザイン/コーディングを行いました。</p>
           </div>
-          <div class="col-12 my-3 my-md-5 animation">
-            <p class="h3">SKILL</p>
-            <div class="card-deck">
-              <div class="card skill web">
-                <div class="row no-gutters h-100">
-                  <div class="col-4 col-sm-12 col-md-4 left">
-                  </div>
-                  <div class="col-8 col-sm-12 col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Web Design</h5>
-                      <p class="card-text">求めるデザインと成果を考えながら、ユーザー目線を忘れず使いやすいWebデザインをご提案します。</p>
+        </div>
+      </div>
+      <div class="skill-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 my-3 my-md-5 animation">
+              <div class="card-deck">
+                <div class="card skill p-4">
+                  <div class="row no-gutters h-100">
+                    <img class="m-auto" src="assets/skill-icon-ui.svg" alt="Card image cap">
+                    <div>
+                      <div class="card-body">
+                        <h5 class="card-title">UI DESIGN</h5>
+                        <p class="card-text">使いやすいシステムになっていることとユーザーに合わせたデザインで快適なアプリケーションをご提案します</p>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="card skill coding">
-                <div class="row no-gutters h-100">
-                  <div class="col-4 col-sm-12 col-md-4 left">
+                <div class="card skill p-4">
+                  <div class="row no-gutters h-100">
+                    <img class="m-auto" src="assets/skill-icon-web.svg" alt="Card image cap">
+                    <div>
+                      <div class="card-body">
+                        <h5 class="card-title">WEB DESIGN</h5>
+                        <p class="card-text">要件を元にベストなデザインと成果を考えながらユーザー目線を忘れず制作を行います</p>
+                      </div>
+                    </div>
                   </div>
-                  <div class="col-8 col-sm-12 col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Coading</h5>
-                      <p class="card-text">HTML、CSS、jQueryなどを使用し、管理のしやすいコードを意識しながら構築しています。</p>
+                </div>
+                <div class="card skill p-4">
+                  <div class="row no-gutters h-100">
+                    <img class="m-auto" src="assets/skill-icon-code.svg" alt="Card image cap">
+                    <div>
+                      <div class="card-body">
+                        <h5 class="card-title">COADING</h5>
+                        <p class="card-text">HTML、CSS、jQueryなどを使用し管理のしやすいコードを意識しながら構築しています</p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-12 col-md-6 animation">
-            <p class="skill ps">
-              <strong>Photoshop</strong>
-              <span>新規Webデザイン、ランディングページ、バナー制作、写真レタッチ</span>
-            </p>
-            <p class="skill ai">
-              <strong>Illustrator</strong>
-              <span>イラスト制作、アイコン制作、ロゴ制作</span>
-            </p>
-            <p class="skill xd">
-              <strong>AdobeXD</strong>
-              <span>管理画面等のUI設計とプロトタイプ作成</span>
-            </p>
-          </div>
-          <div class="col-12 col-md-6 animation">
-            <p class="skill code">
-              <strong>HTML/CSS</strong>
-              <span>レスポンシブサイト対応のwebページ作成、管理画面等構築</span>
-            </p>
-            <p class="skill code">
-              <strong>jQuery</strong>
-              <span>簡単な動き(スライダーやカルーセルなど)の組み込み</span>
-            </p>
-            <p class="skill git">
-              <strong>Git</strong>
-              <span>SourceTreeを使ったpushやpullといった基本的なソース管理</span>
-            </p>
-          </div>
-          <div class="col-12">
+            <div class="col-12">
+              <p class="h3">SKILL</p>
+            </div>
+            <div class="col-12 col-md-6 animation">
+              <p class="skill ps">
+                <strong>Photoshop</strong>
+                <span>新規Webデザイン、ランディングページ、バナー制作、写真レタッチ</span>
+              </p>
+              <p class="skill ai">
+                <strong>Illustrator</strong>
+                <span>イラスト制作、アイコン制作、ロゴ制作</span>
+              </p>
+              <p class="skill xd">
+                <strong>AdobeXD</strong>
+                <span>管理画面等のUI設計とプロトタイプ作成</span>
+              </p>
+            </div>
+            <div class="col-12 col-md-6 animation">
+              <p class="skill code">
+                <strong>HTML/CSS</strong>
+                <span>レスポンシブサイト対応のwebページ作成、管理画面等構築</span>
+              </p>
+              <p class="skill code">
+                <strong>jQuery</strong>
+                <span>簡単な動き(スライダーやカルーセルなど)の組み込み</span>
+              </p>
+              <p class="skill git">
+                <strong>Git</strong>
+                <span>SourceTreeを使ったpushやpullといった基本的なソース管理</span>
+              </p>
+            </div>
+            <div class="col-12">
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="bg_scroll bg-02" id="bg_scroll-02"></div>
-    <div id="contact" class="animation">
+    </section>
+    <section id="contact" class="animation">
       <div class="container">
         <p class="h2">CONTACT<span>お問い合わせ</span></p>
         <p class="text-md-center mb-4">ポートフォリオをご覧いただきありがとうございます。<br>ご不明な点等ございましたら下記リンクからお気軽にご連絡ください。</p>
@@ -160,7 +182,7 @@
           <a href="https://forms.gle/AkqM4uoy4F48Ar4o6" target="_blank" class="btn btn-lg btn-pink">お問い合わせフォームへ<i class="fas fa-external-link-alt fa-sm ml-2"></i></a>
         </div>
       </div>
-    </div>
+    </section>
     <footer class="py-3">
       <p class="m-0">Copyright © 2020 MIZUKIDESIGN</p>
     </footer>
@@ -194,7 +216,7 @@
         speed: 50
       });
     </script>
-    <script>
+    <!--<script>
       $(function(){
         $('.animation').css('visibility','hidden');
         $(window).scroll(function(){
@@ -202,14 +224,14 @@
              topWindow = jQuery(window).scrollTop();
          $('.animation').each(function(){
           var targetPosition = jQuery(this).offset().top;
-          if(topWindow > targetPosition - windowHeight + 300){
+          if(topWindow > targetPosition - windowHeight + 200){
            jQuery(this).addClass("fadeInDown");
           }
          });
         });
       });
-    </script>
-    <script>
+    </script>-->
+    <!--<script>
       $(function(){
         var $window = $(window);
        
@@ -228,6 +250,6 @@
           });
         });
       });
-    </script>
+    </script>-->
   </body>
 </html>

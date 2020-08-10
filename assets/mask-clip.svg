@@ -1,0 +1,18 @@
+<svg id="_200_mask-clip.svg" data-name="200% mask-clip.svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1866" height="2378" viewBox="0 0 933 1189">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="16" y="204" width="933" height="1189" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="4" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="7.874"/>
+      <feFlood result="flood" flood-opacity="0.39"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="長方形_1_のコピー_3" data-name="長方形 1 のコピー 3" class="cls-1" d="M337.58,463.929L535.729,265.781a15.567,15.567,0,0,1,22.016,0L755.894,463.929a15.57,15.57,0,0,1,0,22.017L557.745,684.094a15.567,15.567,0,0,1-22.016,0L337.58,485.946A15.57,15.57,0,0,1,337.58,463.929ZM82.045,719.536L280.193,521.387a15.57,15.57,0,0,1,22.017,0L500.358,719.536a15.567,15.567,0,0,1,0,22.016L302.21,939.7a15.57,15.57,0,0,1-22.017,0L82.045,741.552A15.567,15.567,0,0,1,82.045,719.536Zm381.4,126.231L661.594,647.618a15.569,15.569,0,0,1,22.016,0L881.759,845.767a15.569,15.569,0,0,1,0,22.016L683.61,1065.93a15.567,15.567,0,0,1-22.016,0L463.445,867.783A15.569,15.569,0,0,1,463.445,845.767ZM207.91,1101.37L406.058,903.225a15.568,15.568,0,0,1,22.017,0L626.223,1101.37a15.572,15.572,0,0,1,0,22.02L428.075,1321.54a15.568,15.568,0,0,1-22.017,0L207.91,1123.39A15.572,15.572,0,0,1,207.91,1101.37Z" transform="translate(-16 -204)"/>
+</svg>

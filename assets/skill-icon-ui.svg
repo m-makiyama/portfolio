@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="202" height="202" viewBox="0 0 202 202">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3, .cls-4, .cls-6 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke: #080102;
+        stroke-width: 6px;
+      }
+
+      .cls-4, .cls-6 {
+        stroke: #00afd9;
+        stroke-width: 2px;
+      }
+
+      .cls-5 {
+        fill: #fcdf03;
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="1" y="1" width="200" height="200" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDIwMCAyMDAiPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuY2xzLTEgewogICAgICAgIGZpbGw6IHVybCgjbGluZWFyLWdyYWRpZW50KTsKICAgICAgfQogICAgPC9zdHlsZT4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB5MT0iMTU3LjczNSIgeDI9IjIwMCIgeTI9IjQyLjI2NSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM0NmFlZjciLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMDBhZmQ5Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCBjbGFzcz0iY2xzLTEiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIi8+Cjwvc3ZnPgo="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="skill-icon-ui.svg" class="cls-1">
+    <rect id="長方形_16" data-name="長方形 16" x="91.25" y="133.25" width="25.63" height="12.25"/>
+    <path id="長方形_17" data-name="長方形 17" class="cls-2" d="M1199.95,2970.45h38.67a1,1,0,0,1,1,1v4.68a1,1,0,0,1-1,1h-38.67a1,1,0,0,1-1-1v-4.68A1,1,0,0,1,1199.95,2970.45Z" transform="translate(-1115.5 -2825.5)"/>
+    <path id="長方形_18" data-name="長方形 18" class="cls-3" d="M1170.64,2886.88h97.85a4,4,0,0,1,4,4v65.54a4,4,0,0,1-4,4h-97.85a4,4,0,0,1-4-4v-65.54A4,4,0,0,1,1170.64,2886.88Z" transform="translate(-1115.5 -2825.5)"/>
+    <path id="長方形_21" data-name="長方形 21" class="cls-4" d="M1199,2890v66" transform="translate(-1115.5 -2825.5)"/>
+    <path id="長方形_21_のコピー" data-name="長方形 21 のコピー" class="cls-4" d="M1176,2907h19" transform="translate(-1115.5 -2825.5)"/>
+    <path id="長方形_21_のコピー_2" data-name="長方形 21 のコピー 2" class="cls-4" d="M1176,2915h19" transform="translate(-1115.5 -2825.5)"/>
+    <path id="長方形_21_のコピー_3" data-name="長方形 21 のコピー 3" class="cls-4" d="M1176,2924h19" transform="translate(-1115.5 -2825.5)"/>
+    <path id="長方形_21_のコピー_4" data-name="長方形 21 のコピー 4" class="cls-4" d="M1176,2933h19" transform="translate(-1115.5 -2825.5)"/>
+    <rect id="長方形_22" data-name="長方形 22" class="cls-5" x="89.5" y="76.5" width="23" height="15" rx="2" ry="2"/>
+    <rect id="長方形_22_のコピー" data-name="長方形 22 のコピー" class="cls-5" x="118.5" y="76.5" width="23" height="15" rx="2" ry="2"/>
+    <rect id="長方形_22_のコピー_2" data-name="長方形 22 のコピー 2" class="cls-6" x="89.5" y="98.5" width="23.78" height="11" rx="2" ry="2"/>
+    <rect id="長方形_22_のコピー_3" data-name="長方形 22 のコピー 3" class="cls-6" x="89.5" y="112.5" width="23.78" height="11" rx="2" ry="2"/>
+    <rect id="長方形_22_のコピー_4" data-name="長方形 22 のコピー 4" class="cls-6" x="118.5" y="97.5" width="22.78" height="25" rx="2" ry="2"/>
+    <circle id="楕円形_1" data-name="楕円形 1" class="cls-6" cx="101" cy="101" r="100"/>
+  </g>
+</svg>

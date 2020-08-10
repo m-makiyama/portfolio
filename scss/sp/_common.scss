@@ -1,3 +1,5 @@
+$content-padding: 50px;
+
 .h2 {
     font-size: 2rem;
 }
@@ -5,17 +7,23 @@
     width: calc(100% - 72px);
 }
 #main {
-    p {
-        font-size: 1.5rem;
+    height: 80vh;
+    .main-text {
+        .h1 {
+            font-size: 5rem;
+        }
+        p:not(.h1) {
+            font-size: 1.5rem;
+        }
     }
 }
-
 #works,
-#about,
-#contact {
-    padding: 50px 0;
+#about .skill-bg {
+    padding-bottom: $content-padding;
 }
-#main {
-    height: 40vh;
-    margin-top: 97px;
+#about {
+    padding-top: $content-padding;
+}
+#contact {
+    padding: $content-padding 0;
 }
