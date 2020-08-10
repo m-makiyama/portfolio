@@ -121,11 +121,9 @@ p {
 }
 @keyframes SlideIn {
   0% {
-    opacity: 0;
-    transform: translateX(-100px);
+    transform: translateX(-150%);
   }
   100% {
-    opacity: 1;
     transform: translateX(0);
   }
 }
@@ -180,14 +178,12 @@ p {
     50% { opacity:0; }
     100% { opacity:1; }
 }
-/* css */
 .passing .passing-box {
     display: block;
 }
 .passing .passing-bar {
     position: relative;
     display: inline-block;
-    /*　後ほど解説　*/
     -webkit-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
@@ -201,7 +197,6 @@ p {
     left: 0;
     top: 0;
     z-index: 1;
-    /* 任意の値 */
     background: $main-color;
 }
 .passing .passing-txt {
@@ -278,37 +273,7 @@ p {
         bottom: 0;
         background-image: url('../assets/para01.jpg');
         background-size: cover;
+        background-position: center;
         z-index: -1;
     }
 }
-
-/*.bg_scroll {
-    background: no-repeat;
-    background-size: cover;
-    min-height: 400px;
-    &.bg-01 {
-        background-image: url('../assets/para01.jpg');
-    }
-    &.bg-02 {
-        background-image: url('../assets/para02.jpg');
-    }
-}*/
-/*.fadeInDown {
- -webkit-animation-fill-mode:both;
- -ms-animation-fill-mode:both;
- animation-fill-mode:both;
- -webkit-animation-duration:1s;
- -ms-animation-duration:1s;
- animation-duration:1s;
- -webkit-animation-name: fadeInDown;
- animation-name: fadeInDown;
- visibility: visible !important;
-}
-@-webkit-keyframes fadeInDown {
- 0% { opacity: 0; -webkit-transform: translateY(20px); }
- 100% { opacity: 1; -webkit-transform: translateY(0); }
-}
-@keyframes fadeInDown {
- 0% { opacity: 0; -webkit-transform: translateY(20px); -ms-transform: translateY(20px); transform: translateY(20px); }
- 100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
-}*/
