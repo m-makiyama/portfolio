@@ -126,6 +126,10 @@ p {
 }
 #main {
     overflow: hidden;
+    background-image: url("../assets/wave.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
     > .container {
         display: flex;
         align-items: center;

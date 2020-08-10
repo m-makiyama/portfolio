@@ -111,7 +111,11 @@ p {
   background: white; }
 
 #main {
-  overflow: hidden; }
+  overflow: hidden;
+  background-image: url("../assets/wave.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain; }
   #main > .container {
     display: flex;
     align-items: center;
