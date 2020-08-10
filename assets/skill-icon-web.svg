@@ -1,45 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="202" height="202" viewBox="0 0 202 202">
-  <defs>
-    <style>
-      .cls-1 {
-        filter: url(#filter);
-      }
-
-      .cls-2, .cls-4 {
-        fill: none;
-        stroke: #00afd9;
-        stroke-width: 2px;
-      }
-
-      .cls-2 {
-        fill-rule: evenodd;
-      }
-
-      .cls-3 {
-        fill: #fcdf03;
-      }
-    </style>
-    <filter id="filter" filterUnits="userSpaceOnUse">
-      <feImage preserveAspectRatio="none" x="1" y="1" width="200" height="200" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDIwMCAyMDAiPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuY2xzLTEgewogICAgICAgIGZpbGw6IHVybCgjbGluZWFyLWdyYWRpZW50KTsKICAgICAgfQogICAgPC9zdHlsZT4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB5MT0iMTU3LjczNSIgeDI9IjIwMCIgeTI9IjQyLjI2NSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM0NmFlZjciLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMDBhZmQ5Ii8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCBjbGFzcz0iY2xzLTEiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjAwIi8+Cjwvc3ZnPgo="/>
-      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
-      <feBlend result="blend" in2="SourceGraphic"/>
-    </filter>
-  </defs>
-  <g id="skill-icon-web.svg" class="cls-1">
-    <path id="長方形_19_のコピー" data-name="長方形 19 のコピー" class="cls-2" d="M1505,3011.06V2894h107v117.06" transform="translate(-1456.5 -2825.5)"/>
-    <path id="長方形_19" data-name="長方形 19" class="cls-3" d="M54.5,60.5h95a6,6,0,0,1,6,6v2a0,0,0,0,1,0,0H48.5a0,0,0,0,1,0,0v-2A6,6,0,0,1,54.5,60.5Z"/>
-    <rect id="長方形_20" data-name="長方形 20" class="cls-3" x="64.5" y="86.5" width="22" height="22"/>
-    <rect id="長方形_20_のコピー_2" data-name="長方形 20 のコピー 2" class="cls-3" x="89.5" y="98.5" width="10" height="10"/>
-    <rect id="長方形_20_のコピー_3" data-name="長方形 20 のコピー 3" class="cls-3" x="112" y="125.5" width="29.5" height="22"/>
-    <rect id="長方形_20_のコピー_4" data-name="長方形 20 のコピー 4" class="cls-3" x="107" y="87.5" width="30" height="2"/>
-    <rect id="長方形_20_のコピー_5" data-name="長方形 20 のコピー 5" class="cls-3" x="107" y="94.5" width="30" height="2"/>
-    <rect id="長方形_20_のコピー_6" data-name="長方形 20 のコピー 6" class="cls-3" x="107" y="102.5" width="30" height="2"/>
-    <rect id="長方形_20_のコピー_7" data-name="長方形 20 のコピー 7" class="cls-3" x="66" y="127.5" width="30" height="2"/>
-    <rect id="長方形_20_のコピー_7-2" data-name="長方形 20 のコピー 7" class="cls-3" x="66" y="134.5" width="30" height="2"/>
-    <rect id="長方形_20_のコピー_7-3" data-name="長方形 20 のコピー 7" class="cls-3" x="66" y="142.5" width="30" height="2"/>
-    <rect id="長方形_20_のコピー_8" data-name="長方形 20 のコピー 8" class="cls-3" x="64" y="165.5" width="77" height="2"/>
-    <rect id="長方形_20_のコピー_8-2" data-name="長方形 20 のコピー 8" class="cls-3" x="64" y="172.5" width="77" height="2"/>
-    <rect id="長方形_20_のコピー_8-3" data-name="長方形 20 のコピー 8" class="cls-3" x="64" y="180.5" width="77" height="2"/>
-    <circle id="楕円形_1" data-name="楕円形 1" class="cls-4" cx="101" cy="101" r="100"/>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="レイヤー_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 202 202" style="enable-background:new 0 0 202 202;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#00AFD9;}
+</style>
+<g>
+	<rect x="64.5" y="86.5" class="st0" width="22" height="22"/>
+	<rect x="89.5" y="98.5" class="st0" width="10" height="10"/>
+	<rect x="112" y="125.5" class="st0" width="29.5" height="22"/>
+	<rect x="107" y="87.5" class="st0" width="30" height="2"/>
+	<rect x="107" y="94.5" class="st0" width="30" height="2"/>
+	<rect x="107" y="102.5" class="st0" width="30" height="2"/>
+	<rect x="66" y="127.5" class="st0" width="30" height="2"/>
+	<rect x="66" y="134.5" class="st0" width="30" height="2"/>
+	<rect x="66" y="142.5" class="st0" width="30" height="2"/>
+	<rect x="64" y="165.5" class="st0" width="77" height="2"/>
+	<rect x="64" y="172.5" class="st0" width="77" height="2"/>
+	<rect x="64" y="180.5" class="st0" width="77" height="2"/>
+	<path class="st0" d="M202,101C202,45.3,156.7,0,101,0S0,45.3,0,101s45.3,101,101,101c20.3,0,39.3-6.1,55.2-16.4h0.3v-0.2
+		C183.9,167.3,202,136.2,202,101z M49.5,185.5v-116h105v114.8c-15.4,10-33.8,15.7-53.5,15.7C82.1,200,64.5,194.7,49.5,185.5z
+		 M156.5,182.9V67.5l0,0v-1c0-3.3-3.7-6-7-6h-95c-3.3,0-7,2.7-7,6v1l0,0v116.8C20.1,166.6,2,135.9,2,101C2,46.4,46.4,2,101,2
+		s99,44.4,99,99C200,135,182.7,165.1,156.5,182.9z"/>
+</g>
 </svg>
